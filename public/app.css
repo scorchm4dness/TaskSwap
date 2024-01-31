@@ -1,0 +1,125 @@
+
+body {
+    padding-top: 3rem; /*sa carousel*/
+  }
+  .btn-outline-success {
+    color: #1F548B; /*color ng get started text*/
+    border-color: #1F548B; /*color ng get started borded*/
+    margin-left: 1rem;
+  }
+  .navbar-brand{
+    margin-left: 0.8rem; /*sa logo*/
+  }
+  
+  .btn-outline-success:hover { /*sa get started button*/
+    color: #fff;
+    background-color: #1F548B;
+    border-color: #1F548B;
+  }
+  .nav-link {
+    color: #1F548B; /*navbar text*/
+  }
+  .d-flex .nav-link{ /*navbar text*/
+    margin-top:0.5rem;
+  }
+  
+  /* CUSTOMIZE THE CAROUSEL NAAAA HAYS*/
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 2rem;
+  }
+  
+  /* position and height ng carousel */
+  .carousel-item {
+    height: 32rem;
+    margin-left: 13rem;
+  }
+  .carousel-indicators button {
+    border-radius: 50%;
+    background-color: #007BFF; 
+    margin: 0 5px; 
+  }
+  .carousel-indicators .active {
+    background-color: #007BFF; 
+    border-color: #007BFF; 
+  }
+  .carousel-indicators button:not(.active) {
+    background-color: #007BFF; 
+    border-color: #007BFF; 
+  }
+  
+  .floating-icon { /*sa chat with dev*/
+    position: fixed;
+    bottom: 30px; 
+    right: 40px; 
+    background-color: #007bff; 
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floating-icon .icon {
+    width: 30px; 
+    height: 30px; 
+    display: block;
+    margin: auto;
+  }
+  
+  .floating-icon:hover::after {
+    content: "Chat with developer";
+    position: absolute;
+    bottom: 120%; 
+    right: 0;
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px;
+    padding: 5px;
+    white-space: nowrap;
+  }
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* ito yung sa gamified and blockchain deets */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  .col-lg-4 .fw-normal{
+    margin-top: 20px;
+  }
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 2rem 0; 
+    border-top: 3px solid #00356e;
+  }
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .featurette-heading {
+      font-size: 50px;
+      color: #1F548B;
+      margin-top: 3rem;
+    }
+  }
+  
+  .highlight-text {
+    color: green;
+  }
+  .col-md-5{
+    margin-top: 2rem;
+  }
