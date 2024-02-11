@@ -1,0 +1,246 @@
+
+
+:root{
+  --body: #ffffff; 
+  --custom: #04364A; /* Custom color for paragraph and text */
+  --color:#ffffff;
+
+}
+body {
+    padding-top: 3rem; /*sa carousel*/
+    background: var(--body)/*root color for body */
+  }
+  .modal-content {
+    margin-top: 10rem;
+    background-color: white; /* Set the background color to white */
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+}
+  .btn-outline{
+    color: #04364A; /*color ng get started text*/
+    border-color: #04364A; /*color ng get started borded*/
+    margin-left: 1rem;
+    font-family: 'sans-serif';
+  }
+  .navbar-brand{
+    margin-left: 0.8rem; /*sa logo*/
+  }
+  
+  .btn-outline:hover { /*sa get started button*/
+    color: #fff;
+    background-color: #04364A;
+    border-color: #04364A;
+  }
+ 
+  .nav-link {
+    color: #04364A; /*navbar text*/
+    font-family: 'sans-serif';
+    cursor: pointer;
+  }
+  .d-flex .nav-link{ /*navbar text*/
+    font-family: 'sans-serif';
+    margin-top:0.5rem;
+    color: #04364A;
+    cursor: pointer;
+  }
+  .nav-item .nav-link:not(.active) {
+    color: #04364A
+  }
+  
+  /* position and height ng  mismong carousel */
+  .carousel-item {
+    height: 34rem;
+    margin-left: 14.5rem;
+  }
+  .carousel-indicators button {
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+    border-radius:50%;
+    background-color: #04364A; 
+    opacity: 0.75;
+    transition: opacity ease 250ms; 
+    border: 0.5rem;
+  }
+
+  .carousel-indicators .active {
+    background-color: #04364A; 
+    border-color: #04364A; 
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+  }
+  .carousel-indicators button:not(.active) {
+    background-color: #04364A; 
+    border-color: #04364A;
+    border: 5rem;
+    border-radius:50%;
+    width: 0.4rem; /*change rin w and h sa .active pati not active*/
+    height: 0.4rem; /*change rin w and h sa .active pati not active*/
+
+  }
+  /*image sa carousel and h2 and paragraph*/
+/*una*/
+  .custom1{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top:4rem;
+    top:50%;
+    transform: translate(48%, 8%);
+    color: #04364A;
+   }
+   .custom1 p{
+    font-family: 'sans-serif';
+    text-align: left;
+    transform: translate(25%, 8%);
+    font-size: large;
+
+   }
+   .carousel-item .custom-img1 {
+    position: absolute;
+    top: 50%;
+    left: 40%; 
+    transform: translate(-70%, -60%);
+    max-width: 70%; /*image doesn't exceed the container width */
+    max-height: 70%; /* image doesn't exceed the container height */
+    width: auto; /* image adjusts its width */
+    height: auto; /* image adjusts its height */
+}
+/*pangalawa*/
+.custom2{
+  font-family: 'Poppins';
+  text-align: center;
+  margin-top:4rem;
+  transform: translate(15%, 50%);
+  color: #04364A;
+ }
+ .custom2 p{
+  font-family: 'sans-serif';
+  text-align: left;
+  transform: translate(22%, 1%);
+ }
+ .carousel-item .custom-img2 {
+  position: absolute;
+  top: 60%;
+  left: 43%; 
+  transform: translate(-64%, -63%);
+  max-width: 100%; /*image doesn't exceed the container width */
+  max-height: 100%; /* image doesn't exceed the container height */
+  width: auto; /* image adjusts its width */
+  height: auto; /* image adjusts its height */
+ 
+}
+/*pangatlo*/
+  .custom3{
+    font-family: 'Poppins';
+    text-align: center;
+    margin-top:4rem;
+    top:50%;
+    left: 50%; /* Adjust left value as needed */
+    color: #04364A;
+   }
+   .custom3 p{
+    font-family: 'sans-serif';
+    text-align: left;
+    left: 70%; /* Adjust left value as needed */
+    transform: translate(26%, 8%);
+   }
+   .carousel-item .custom-img3 {
+    position: absolute;
+    top: 50%;
+    left: 43%; 
+    transform: translate(-60%, -60%);
+    max-width: 70%; /*image doesn't exceed the container width */
+    max-height: 70%; /* image doesn't exceed the container height */
+    width: auto; /* image adjusts its width */
+    height: auto; /* image adjusts its height */
+}
+
+  
+  .floating-icon { /*sa chat with dev*/
+    position: fixed;
+    bottom: 30px; 
+    right: 40px; 
+    background-color: #04364A; 
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .floating-icon .icon {
+    width: 30px; 
+    height: 30px; 
+    display: block;
+    margin: auto;
+    fill: white;
+  }
+  
+  .floating-icon:hover::after {
+    content: "Chat with developer";
+    position: absolute;
+    right: 120%; 
+    top: 6px;
+    background-color: #04364A; 
+    color: #fff; 
+    border-radius: 5px;
+    padding: 5px;
+    white-space: nowrap;
+  }
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* ito yung sa gamified and blockchain deets */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins';
+  }
+  
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+    font-family: 'sans-serif';
+    color:var(--custom);
+  }
+  
+  .col-lg-4 .fw-normal{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    color:var(--custom);
+  }
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 2rem 0; 
+    border-top: 3px solid #04364A;
+  }
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .featurette-heading {
+      font-size: 50px;
+      color: #04364A;
+      margin-top: 3rem;
+      font-family: 'Poppins';
+    }
+    .lead{
+      font-family: 'sans-serif';
+      color:var(--custom);
+    }
+  }
+  
+  .highlight-text {
+    color: #62AC83;
+  }
+  .col-md-5{
+    margin-top: 2rem;
+  }
+  .container{
+    color:var(--custom);
+  }
